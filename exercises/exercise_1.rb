@@ -12,4 +12,5 @@ Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, wom
 # Gastown (annual_revenue of 190000 carries men's apparel only)
 Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
+#count the amount of stores
 puts "Amount of stores #{Store.count()}"
